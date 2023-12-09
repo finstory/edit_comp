@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Readex_Pro';
+    src: url('https://res.cloudinary.com/dz9smi3nc/raw/upload/v1687620388/Nobject/fonts/ReadexPro-VariableFont_HEXP_wght_hiilgk.ttf');
+}
+
+@font-face {
+    font-family: 'Revalia';
+    src: url('https://res.cloudinary.com/dz9smi3nc/raw/upload/v1687621076/Nobject/fonts/Revalia-Regular_hjh9ta.ttf');
+}
+
+@font-face {
+    font-family: 'Quantico';
+    src: url('https://res.cloudinary.com/dz9smi3nc/raw/upload/v1687621205/Nobject/fonts/Quantico-Regular_gwjok9.ttf');
+}
+
+@font-face {
+    font-family: 'Syne';
+    src: url('https://res.cloudinary.com/dz9smi3nc/raw/upload/v1689321338/Nobject/fonts/Syne-ExtraBold_tuavnv.ttf');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://res.cloudinary.com/dz9smi3nc/raw/upload/v1691561147/Nobject/fonts/Inter-VariableFont_slnt_wght_yctwya.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('https://res.cloudinary.com/dz9smi3nc/raw/upload/v1691640448/Nobject/fonts/RubikMicrobe-Regular_fcrsan.ttf');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('https://res.cloudinary.com/dz9smi3nc/raw/upload/v1691691873/Nobject/fonts/RobotoCondensed-Italic_lr6jhr.ttf');
+}
+
+.font-rubik {
+    font-family: Rubik;
+}
+
+.font-syne {
+    font-family: Syne;
+}
+
+.font-inter {
+    font-family: Inter;
+}
+
+.font-quantico {
+    font-family: Quantico;
+}
+
+.font-revalia {
+    font-family: Revalia;
+}
+
+.font-readex-pro {
+    font-family: Readex_Pro;
+}

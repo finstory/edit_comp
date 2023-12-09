@@ -1,0 +1,41 @@
+body {
+    background-color: #000000;
+}
+
+.container {
+    height: 500px;
+    color: #ff000093;
+    background-color: rgb(43, 44, 43);
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    color: #ff000093;
+    background-color: #4151b6;
+
+}
+
+.box .text {}
+
+.box:nth-child(2) {
+/* GENERATE */ 
+    animation: parpadeo 4s infinite;
+    height: 200px;
+    color: #ff000093;
+    background-color: #802aa5;
+}
+
+@keyframes parpadeo {
+    0% {
+        background-color: #a52a2acb;
+    }
+
+    50% {
+        background-color: #a52a2a91;
+    }
+
+    100% {
+        background-color: #a52a2ab7;
+    }
+}

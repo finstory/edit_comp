@@ -1,0 +1,26 @@
+.test {
+    font-size: 20px;
+    width: 20rem;
+    height: 20rem;
+    background-color: #358240;
+    font-size: 20px;
+}
+
+.carousel {
+    width: 23rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #45ba97;
+    border-radius: 2rem;
+    opacity: 1;
+}
+
+.dfd3434 {
+    font-size: 20px;
+    width: 20rem;
+    height: 20rem;
+    background-color: #358240;
+    font-size: 20px;
+}

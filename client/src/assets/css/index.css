@@ -1,0 +1,338 @@
+@import url("./fonts.css");
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Readex_Pro;
+}
+
+.app_container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    color: #f0f0f0;
+    /* background-color: #000000; */
+    /* background-image: url("https://res.cloudinary.com/dz9smi3nc/image/upload/v1701028933/twitch_api_to_take_roll/sonic-frontiers-game-art-hd-wallpaper-uhdpaper.com-642_0_h_y8jdbz.jpg");
+    background-size: cover;
+    background-position: center;
+    font-size: 1.6rem; */
+    background-color: #000000;
+
+    /* border: 2px solid #f0f0f0; */
+}
+
+.dashboard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.table {
+    width: 100%;
+    max-width: 40rem;
+    height: 26rem;
+    background-color: #00000044;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    border: 2px solid #abacd7;
+    overflow-y: scroll;
+    opacity: 0.9;
+}
+
+.table::-webkit-scrollbar {
+    position: absolute;
+    width: 12px;
+    /* Ancho de la barra de desplazamiento */
+}
+
+.table::-webkit-scrollbar-thumb {
+
+    border-radius: 1rem;
+    background-color: #684da8;
+    border: 2px solid #abacd7;
+    /* Color del pulgar de la barra de desplazamiento */
+
+    /* Radio de borde del pulgar */
+}
+
+.table::-webkit-scrollbar-track {
+    background-color: #abacd7;
+    border-radius: 1rem;
+    /* Color de la pista de la barra de desplazamiento */
+}
+
+.table .head {
+    width: 100%;
+    height: 4rem;
+    background: linear-gradient(180deg, #684da88e 0%, #5a29aa8f 100%);
+    border-bottom: 2px solid rgb(171, 172, 215);
+
+
+    display: flex;
+
+}
+
+
+.table .colum:nth-child(1) {
+    width: 10%;
+    height: 100%;
+    border-right: 2px solid #abacd7;
+}
+
+.table .colum:nth-child(2) {
+    width: 90%;
+    height: 100%;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    min-height: 100vh;
+
+}
+
+.table .row {
+    width: 100%;
+    height: 4rem;
+    background-color: #202020;
+    display: flex;
+    border-bottom: 2px solid #abacd7;
+}
+
+.profile_img {
+    height: 100%;
+}
+
+.profile_img img {
+    height: 100%;
+    display: block;
+}
+
+.colum {
+    padding: 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.timer {
+    margin-bottom: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    border: 2px solid #abacd7;
+    background: linear-gradient(180deg, #684da88e 0%, #5a29aa8f 100%);
+}
+
+.timer p {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.table .user_counter {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(180deg, #b697e7 0%, #6e77a37a 100%);
+    color: white;
+    border-radius: 2rem;
+}
+
+.save_list {
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    border: 2px solid #abacd7;
+    background: linear-gradient(180deg, #684da88e 0%, #5a29aa8f 100%);
+    color: #ffffff;
+}
+
+.save_list:hover {
+    background: linear-gradient(180deg, #684da8 0%, #5b29aa 100%);
+
+}
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(180deg, #1e1e1e 0%, #111111 100%);
+}
+
+
+
+.brenda {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.brenda .box:nth-child(1) {
+    position: relative;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 2rem;
+}
+
+.brenda .box:nth-child(1) img {
+    object-fit: cover;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 20rem 20rem 1rem 1rem;
+
+}
+
+.brenda .box:nth-child(2) {
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.brenda .box:nth-child(2) p {
+    font-size: 2.5rem;
+    margin: 0;
+
+}
+
+
+.brenda .box:nth-child(2) .wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background: linear-gradient(180deg, #684da8da 0%, #5a29aa 100%);
+    border-radius: 1rem;
+}
+
+.brenda .box:nth-child(2) .wrap .img_twitch {
+    height: 4rem;
+    width: 4rem;
+}
+
+.brenda .box:nth-child(2).wrap .img_twitch img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* 
+.brenda .box:nth-child(2) {
+    display: flex;
+    justify-content: center;
+
+
+    padding: 0 1.4rem;
+    background: linear-gradient(180deg, #684da88e 0%, #5a29aa8f 100%);
+    border-radius: 0 2rem 2rem 0;
+}
+
+.brenda .box:nth-child(2) p {
+    padding-top: 3px;
+    margin: 0;
+
+}
+
+.brenda .box:nth-child(2) .img_twitch {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brenda .box:nth-child(2) .img_twitch img {
+    width: 50%;
+    object-fit: contain;
+    display: block;
+} */
+
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+footer .creator {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+footer .creator .box img {
+    height: 100%;
+    border-radius: 2rem 0 0 2rem;
+
+}
+
+footer .creator .box:nth-child(1) {
+    flex-basis: 2rem;
+    border-radius: 2rem;
+}
+
+footer .creator .box:nth-child(2) {
+    display: flex;
+    justify-content: center;
+
+
+    padding: 0 1.4rem;
+    background: linear-gradient(180deg, #684da88e 0%, #5a29aa8f 100%);
+    border-radius: 0 2rem 2rem 0;
+}
+
+footer .creator .box:nth-child(2) p {
+    padding-top: 3px;
+    margin: 0;
+
+}
+
+footer .creator .box:nth-child(2) .img_twitch {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .creator .box:nth-child(2) .img_twitch img {
+    width: 50%;
+    object-fit: contain;
+    display: block;
+}
